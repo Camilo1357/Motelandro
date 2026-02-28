@@ -24,6 +24,14 @@ class Motel:
         self.usuario: Usuario = usuario
         self.rooms: list[Room] = rooms
         
+    def reservar_room(self, room_id: int):
+        for room in self.rooms:
+            if room.id == room_id:
+                print(f"Room {room_id} reservado para {self.usuario.name}")
+                return
+        print(f"Room {room_id} no disponible") 
+        
+        
 if __name__ == "__main__":
     with open("datos.json", "r") as file:
         data = json.load(file)
