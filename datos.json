@@ -1,7 +1,6 @@
 {
     "usuarios": [],
-    "cuartos": [],
+    "rooms": [],
     "reservas": [],
-    "servicios": [],
     "motel": []
 }
