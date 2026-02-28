@@ -1,6 +1,17 @@
 {
-    "usuarios": [],
-    "rooms": [],
-    "reservas": [],
-    "motel": []
+  "usuario": {
+    "name": "Maria",
+    "edad": 30,
+    "sexo": "Femenino",
+    "telefono": "1234567890",
+    "email": "maria@example.com"
+  },
+  "rooms": [
+    {
+      "id": 1,
+      "tipo": "Sencilla",
+      "precio": 50.0,
+      "caracteristicas": ["Cama individual", "Baño privado"]
+    }
+  ]
 }
